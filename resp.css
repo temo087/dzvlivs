@@ -1,0 +1,166 @@
+@media  (width > 1400px) 
+{
+    body{
+        background: var(--Very-Light-blue, #ECF2FF);
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .square{     
+        justify-content: center;
+        align-items: center;
+        padding: 284px 352px;
+    }
+    .frame{
+        display:flex;
+        background-color: white;
+        width: 408px;
+        border-radius: 32px 0 0 32px;
+    }
+    .box1{
+        width: 368px;
+        height: 512px;
+        flex-shrink: 0;
+        border-radius: 32px;
+    }
+    .box2{
+        width: 368px;
+        height: 512px;
+        background-color: white;
+        border-radius: 0 32px 32px 0 ;
+    }
+    .res{
+        font-size: 24px;
+    }
+    .circle{
+        width: 200px;
+        height: 200px;
+        background-size: 200px,200px;
+    }
+    .score{
+        text-align: center;
+        color: var(--White, #FFF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        
+        /* Heading XL */
+        font-family: Hanken Grotesk;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 72px; /* 100% */
+        display: block;
+        margin-left: 60px;
+        margin-right: auto;
+        padding-top: 55px;
+    }
+    .ofscore{
+        color: var(--Light-Blue, #CAC9FF);
+        font-feature-settings: 'clig' off, 'liga' off;
+        
+        /* Body (Bold) */
+        font-family: Hanken Grotesk;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 52px;
+        height: 23px;
+        padding-top: 54px;
+    }
+    .grt{
+        font-size: 32px;
+    }
+    .performance{
+        height: 69px;
+        width: 319px;
+        font-size: 18px;
+        padding-left: 54px;
+    }
+    .box2{
+        width: 368px;
+        height: 512px;
+        padding-left: 20px;
+    }
+    .summary{
+        font-size: 24px;
+        padding-top: 32px;
+        width: 104px;
+        height: 34px;
+    }
+    .reaction{
+        font-style: 18px;
+        width: 71px;
+        height: 23px;
+    }
+    .Memory{
+        font-size: 18px;
+        width: 68px;
+        height: 23px;
+    }
+    .verbal{
+        font-size: 18px;
+        width: 53px;
+        height: 23px;
+    }
+    .visual{
+        font-size: 18px;
+        width: 50px;
+        height: 23px;
+    }
+    .point{
+        padding-left: 81px;
+        width: 21px;
+        height: 23px;
+        font-size: 18px;
+        padding-right: 8px;
+    }   
+    .point3{
+        padding-left:84px ;
+    }
+    .point1{
+        padding-left: 99px;
+    }
+    .point2{
+        padding-left: 102px;
+    }
+    .asi{
+        width: 63px;
+        height: 23px;
+        font-size: 18px;
+    }
+    .item1{
+        width: 288px;
+        height: 56px;
+        flex-shrink: 0;
+        border-radius: 12px;
+    }
+    .item2{
+        width: 288px;
+        height: 56px;
+        flex-shrink: 0;
+        border-radius: 12px;
+    }
+    .item3{
+        width: 288px;
+        height: 56px;
+        flex-shrink: 0;
+        border-radius: 12px;
+    }
+    .item4{
+        width: 288px;
+        height: 56px;
+        flex-shrink: 0;
+        border-radius: 12px;
+    }
+    .btn{
+        width: 288px;
+        height: 56px;
+        flex-shrink: 0;
+    }
+
+}
+
+
+
+
+
